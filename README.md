@@ -36,3 +36,5 @@ streamlit run app.py
 
 Food water-content values are based on USDA FoodData Central
 (https://fdc.nal.usda.gov/). Infusion facts cite the sources listed on each card.
+
+streamlit link:**https://idai101-265279--vishvampatel-7ywjrcnj2jmwlnp6dmaual.streamlit.app/**
