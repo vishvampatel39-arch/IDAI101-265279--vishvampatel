@@ -1,30 +1,14 @@
 # 💧 WaterBuddy – Your Daily Hydration Companion
 
-A Streamlit hydration tracker built for the school Python FA-2 assessment.
-Educational project only – not a medical device. Data lives in the browser
-session and resets when the tab closes.
+**Topic: Hydration Awareness and Healthy Habit Development Through Technology**
 
-## Project layout
+WaterBuddy is an interactive, Python-based application developed around the topic of hydration awareness and the importance of maintaining healthy water-consumption habits. Hydration plays an essential role in the proper functioning of the human body, yet people often overlook their daily water intake due to busy schedules, inconsistent routines, or a lack of awareness about their hydration needs. The project explores how technology can be used to address this everyday challenge by making hydration awareness more accessible, engaging, and practical.
 
-| File | What it does |
-|------|--------------|
-| `app.py` | The screens (10 pages) and styling |
-| `logic.py` | Hydration maths, milestones, achievements (no Streamlit code) |
-| `data.py` | Age groups, foods, infusions, tips |
-| `test_app.py` | Automated tests |
-| `requirements.txt` | Packages the deployed app needs |
-| `requirements-dev.txt` | Same + pytest, for running tests locally |
-| `.streamlit/config.toml` | Forces the light theme |
+The proposed solution is WaterBuddy, a digital hydration companion that combines daily water-intake tracking, personalised hydration goals, educational information, and gamification. Users can record their water consumption, monitor their progress through visual indicators and charts, and stay motivated through milestones and achievements. Beyond tracking, the application introduces users to water-rich foods, healthy fruit-infused water combinations, scientific hydration facts, and practical tips to help them understand hydration from a broader perspective.
 
-## Run locally (Windows)
+The key idea behind WaterBuddy is to move beyond conventional water trackers by integrating three important aspects: **awareness, education, and engagement**. It demonstrates how programming and interactive technology can be applied to a real-life issue to encourage positive behavioural habits. Developed using Python and Streamlit, the application follows a modular structure with separate components for the interface, calculations, and informational data, alongside automated testing to ensure reliability.
 
-```
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements-dev.txt
-pytest -v
-streamlit run app.py
-```
+This project is developed as part of the school Python FA-2 assessment and serves as an educational prototype. Its future potential includes AI-powered recommendations, weather-based suggestions, smartwatch integration, and more advanced hydration analytics. WaterBuddy is intended for educational and awareness purposes and is not a medical device.
 
 ## Deploy on Streamlit Community Cloud
 
